@@ -73,14 +73,6 @@ body::-webkit-scrollbar-thumb:hover {
   display: flex;
   justify-content: center;
 }
-
-.sanjay {
-  width: 250px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-}
-
 .download {
   display: flex;
   justify-content: center;
@@ -94,6 +86,7 @@ body::-webkit-scrollbar-thumb:hover {
   text-decoration: none;
   margin: 50px;
   padding: 5px;
+  size: 50px;
 }
 
 .get-games:hover {
@@ -117,4 +110,23 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .whorwetext {
   color: #ffffff;
+}
+.gamepad {
+  width: 100px;
+  height: 50px;
+}
+.navbar-nav {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px;
+  margin-left: 15px;
+  font-size: 30px;
 }
