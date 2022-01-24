@@ -17,6 +17,16 @@
   --bg-primary: #23232e;
   --bg-secondary: #141418;
 }
+@media only screen and (max-width: 1200px) {
+  :root {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 800px){
+  :root{
+    font-size: 20px;
+  }
+}
 
 .body {
   background-color: #222222;
@@ -129,4 +139,6 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 6px;
   margin-left: 15px;
   font-size: 1rem;
+}
+.bottom {
 }
