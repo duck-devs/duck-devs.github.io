@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Inconsolata:wght@200&family=Roboto&display=swap");
+
+@keyframes background-color {
+  from {
+    background-color: #a19c9c;
+  }
+  to {
+    background-color: #d3d0d0;
+  }
+}
+
+:root {
+  font-size: 16px;
+  font-family: "Inconsolata";
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+.body {
+  background-color: #222222;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  margin-top: 0rem;
+  padding: 1rem;
+}
+
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background: #4d4b49;
+  border-radius: 12px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #868584;
+  border-radius: 12px;
+}
+.navbar {
+  width: 300rem;
+  height: 50px;
+  position: fixed;
+  background-color: var(--bg-secondary);
+}
+
+.h1 {
+  color: #ffffff;
+  font-family: Inconsolata;
+  font-size: 60px;
+  padding: 0px;
+  margin: 2px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.p {
+  color: #ffffff;
+  font-family: Inconsolata;
+}
+
+.paragraph-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.sanjay {
+  width: 250px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+}
+.get-games {
+  font-family: Inconsolata;
+  font-weight: bolder;
+  color: #ffffff;
+  background-color: #a19c9c;
+  border-radius: 12px;
+  text-decoration: none;
+  margin: 50px;
+  padding: 5px;
+}
+
+.get-games:hover {
+  animation-name: background-color;
+  animation-duration: 1s;
+}
+
+.who-are-we {
+  font-family: Inconsolata;
+  color: #ffffff;
+}
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whorwediv {
+  display: flex;
+  text-align: center;
+}
+.whorwetext {
+  color: #ffffff;
+}
